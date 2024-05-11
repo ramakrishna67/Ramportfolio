@@ -8,7 +8,7 @@ export default function Home() {
           <h1 className=" text-[50px] text-white font-bold mt-72 ">
             Hello, <br />
             <span className=" text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-red-800 sm:text-6xl">
-              I'm Ramakrishna
+              I am Ramakrishna
             </span>
           </h1>
           <br />
@@ -34,13 +34,13 @@ export default function Home() {
               Full-Stack Dev with an AI Spark:
             </span>
             <br />
-            <br /> I'm a full-stack developer fueled by a dual passion: building
-            beautiful
+            <br /> I am a full-stack developer fueled by a dual passion:
+            building beautiful
             <br /> and functional websites (HTML, CSS, JS) and exploring the
             potential <br />
             of Artificial Intelligence (AI). Machine learning and deep learning
             ignite <br />
-            my curiosity, and I'm constantly seeking ways to bridge the gap
+            my curiosity, and I am constantly seeking ways to bridge the gap
             between <br />
             traditional web dev and the future of AI. I want to create
             Intelligent <br />

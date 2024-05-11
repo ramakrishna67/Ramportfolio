@@ -31,3 +31,7 @@ body {
     text-wrap: balance;
   }
 }
+
+.custom-img {
+  background-image: url(/bck.jpg);
+}

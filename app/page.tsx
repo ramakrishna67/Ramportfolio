@@ -5,7 +5,7 @@ export default function Home() {
     <div className="z-10 relative flex justify-center items-center bg-cover bg-fixed bg-center w-screen h-screen custom-img">
       <div className="flex flex-col sm:flex-row justify-between items-center gap-8">
         <div className=" ml-10 sm:pl-20 sm:pb-40 sm:ml-4">
-          <h1 className=" text-[50px] text-white font-bold mt-72 ">
+          <h1 className=" text-[50px] text-white font-bold mt-96 ">
             Hello, <br />
             <span className=" text-transparent bg-clip-text bg-gradient-to-r from-yellow-400 to-red-800 sm:text-6xl">
               I am Ramakrishna

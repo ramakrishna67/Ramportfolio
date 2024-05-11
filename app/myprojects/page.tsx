@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function myprojects() {
   return (
     <div
@@ -13,10 +15,7 @@ export default function myprojects() {
           <div>
             <div className="card w-96 bg-base-100 shadow-xl">
               <figure>
-                <img
-                  src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                  alt="Shoes"
-                />
+                <Image src="/logo.jpg" alt="Shoes" width={40} height={20} />
               </figure>
               <div className="card-body">
                 <h2 className="card-title">
@@ -34,10 +33,7 @@ export default function myprojects() {
           <div>
             <div className="card w-96 bg-base-100 shadow-xl">
               <figure>
-                <img
-                  src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                  alt="Shoes"
-                />
+                <Image src="/logo.jpg" alt="Shoes" width={40} height={20} />
               </figure>
               <div className="card-body">
                 <h2 className="card-title">
@@ -57,10 +53,7 @@ export default function myprojects() {
           <div>
             <div className="card w-96 bg-base-100 shadow-xl">
               <figure>
-                <img
-                  src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                  alt="Shoes"
-                />
+                <Image src="/logo.jpg" alt="Shoes" width={40} height={20} />
               </figure>
               <div className="card-body">
                 <h2 className="card-title">
@@ -78,10 +71,7 @@ export default function myprojects() {
           <div>
             <div className="card w-96 bg-base-100 shadow-xl">
               <figure>
-                <img
-                  src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                  alt="Shoes"
-                />
+                <Image src="/logo.jpg" alt="Shoes" width={40} height={20} />
               </figure>
               <div className="card-body">
                 <h2 className="card-title">

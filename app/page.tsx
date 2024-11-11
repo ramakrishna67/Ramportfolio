@@ -4,9 +4,9 @@ import Image from "next/image";
 export default function Home() {
   return (
     <>
-      <div className="z-10 relative flex justify-evenly bg-cover bg-center w-full min-h-screen custom-img">
-        <Navbar />
-        <div className="flex flex-col justify-evenly mt-14 items-center">
+      <Navbar />
+      <div className="z-10 relative flex justify-evenly bg-cover bg-center w-full min-h-screen custom-img p-4">
+        <div className="flex flex-col justify-evenly mt-14 items-center gap-4">
           <div className="flex flex-col justify-center items-center">
             <h1 className=" text-[50px] text-white font-bold ">
               Hello, <br />

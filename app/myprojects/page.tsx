@@ -6,7 +6,7 @@ export default function myprojects() {
     <>
       <Navbar />
       <div
-        className="flex flex-col justify-center items-center bg-cover w-full md:w-screen h-full p-5"
+        className="flex flex-col justify-center items-center bg-cover bg-fixed w-full md:w-screen h:full"
         style={{ backgroundImage: "url(/bck.jpg)" }}
       >
         <div className="flex">
@@ -15,10 +15,64 @@ export default function myprojects() {
           </h1>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-          <div className=" md:w-96 md:h-80 w-80 h-72 flex-col gap-8 bg-gray-700 rounded-3xl"></div>
-          <div className=" md:w-96 md:h-80 w-80 h-72 flex-col gap-8 bg-gray-700 rounded-3xl"></div>
-          <div className=" md:w-96 md:h-80 w-80 h-72 flex-col gap-8 bg-gray-700 rounded-3xl"></div>
-          <div className=" md:w-96 md:h-80 w-80 h-72 flex-col gap-8 bg-gray-700 rounded-3xl"></div>
+          <div className="card card-compact bg-base-100 w-96 shadow-xl">
+            <figure>
+              <img src="heal.png" alt="Heal.IO site Image" />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title">Heal.IO</h2>
+              <p>
+                This is a website developed for the people who are confused
+                about which doctor they should consult or what might be the
+                disease they are facing.
+              </p>
+              <div className="card-actions justify-end">
+                <button className="btn btn-primary">Go Live</button>
+              </div>
+            </div>
+          </div>
+          <div className="card card-compact bg-base-100 w-96 shadow-xl">
+            <figure>
+              <img src="Myportfolio.png" alt="portfolio site Image" />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title">My Portfolio</h2>
+              <p>This is my simple & personal portfolio made using nextjs </p>
+              <div className="card-actions justify-end">
+                <button className="btn btn-primary">Go Live</button>
+              </div>
+            </div>
+          </div>
+          <div className="card card-compact bg-base-100 w-96 shadow-xl">
+            <figure>
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                alt="Website Image"
+              />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title">My Project</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <div className="card-actions justify-end">
+                <button className="btn btn-primary">Go Live</button>
+              </div>
+            </div>
+          </div>
+          <div className="card card-compact bg-base-100 w-96 shadow-xl">
+            <figure>
+              <img
+                src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+                alt="Website image"
+              />
+            </figure>
+            <div className="card-body">
+              <h2 className="card-title">My Project</h2>
+              <p>If a dog chews shoes whose shoes does he choose?</p>
+              <div className="card-actions justify-end">
+                <button className="btn btn-primary">Go Live</button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </>

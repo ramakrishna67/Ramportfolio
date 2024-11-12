@@ -6,7 +6,7 @@ export default function skills() {
     <>
       <Navbar />
       <div
-        className="z-10 relative bg-cover bg-scroll w-full h-full md:h-screen p-5"
+        className=" bg-cover bg-fixed w-full h-full md:h-screen p-5"
         style={{ backgroundImage: "url(/bck.jpg)" }}
       >
         <div className=" flex flex-col justify-center items-center ">

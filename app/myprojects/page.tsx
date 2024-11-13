@@ -15,8 +15,8 @@ export default function myprojects() {
               MY PROJECTS
             </h1>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-            <div className="card card-compact bg-base-100 w-96 shadow-xl">
+          <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 gap-5 ">
+            <div className="card card-compact bg-base-100 md:w-96 w-80  shadow-xl">
               <figure>
                 <img src="heal.png" alt="Heal.IO site Image" />
               </figure>
@@ -37,7 +37,7 @@ export default function myprojects() {
                 </div>
               </div>
             </div>
-            <div className="card card-compact bg-base-100 w-96 shadow-xl">
+            <div className="card card-compact bg-base-100 md:w-96 w-80 shadow-xl">
               <figure>
                 <img src="Myportfolio.png" alt="portfolio site Image" />
               </figure>
@@ -54,7 +54,7 @@ export default function myprojects() {
                 </div>
               </div>
             </div>
-            <div className="card card-compact bg-base-100 w-96 shadow-xl">
+            <div className="card card-compact bg-base-100 md:w-96 w-80 shadow-xl">
               <figure>
                 <img
                   src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
@@ -69,7 +69,7 @@ export default function myprojects() {
                 </div>
               </div>
             </div>
-            <div className="card card-compact bg-base-100 w-96 shadow-xl">
+            <div className="card card-compact bg-base-100 md:w-96 w-80 shadow-xl">
               <figure>
                 <img
                   src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"

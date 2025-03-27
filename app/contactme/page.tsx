@@ -4,7 +4,7 @@ import Navbar from "@/components/navbar";
 import Image from "next/image";
 import {useState} from "react";
 
-export default function contactme() {
+export default function Contactme() {
   const [Name, setName] = useState("");
   return (
     <>

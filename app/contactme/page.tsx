@@ -2,10 +2,10 @@
 
 import Navbar from "@/components/navbar";
 import Image from "next/image";
-import { useState } from "react";
+import React from "react";
 
 export default function contactme() {
-  const [name, setName] = useState("");
+  const [name, setName] = React.useState("");
   return (
     <>
       <Navbar />

@@ -2,9 +2,10 @@
 
 import Navbar from "@/components/navbar";
 import Image from "next/image";
+import {useState} from "react";
 
 export default function contactme() {
-  var name = "";
+  const [Name, setName] = useState("");
   return (
     <>
       <Navbar />
@@ -27,16 +28,19 @@ export default function contactme() {
               />
             </div>
             <div className="flex flex-row md:flex-col md:justify-center md:items-center ">
-              <form method="POST">
+              <form method="POST"
+                onSubmit= {(e)=>{e.preventDefault();
+                                alert(`Hey ${Name} , thank you for reaching me. I will contact you soon!`)}}
+                >
                 <input
                   required
                   type="text"
                   placeholder="Your Name"
                   name="name"
                   className=" pl-6 border-4 h-14 rounded-full m-2 w-[80%] "
-                  onChange={(e) => {
-                    name = e.target.value;
-                  }}
+                  onChange={(e) => 
+                    setName(e.target.value)
+                  }
                 />
 
                 <input
@@ -55,12 +59,7 @@ export default function contactme() {
                 />
                 <button
                   className=" flex justify-center items-center border-2 ml-2 w-32 h-8 rounded-xl mb-10"
-                  onClick={(e) => {
-                    e.preventDefault();
-                    alert(
-                      `Hey ${name} ,  thank you for reaching me. I will contact you soon!`
-                    );
-                  }}
+                  
                 >
                   Send Message
                 </button>

@@ -55,7 +55,8 @@ export default function contactme() {
                 />
                 <button
                   className=" flex justify-center items-center border-2 ml-2 w-32 h-8 rounded-xl mb-10"
-                  onClick={() => {
+                  onClick={(e) => {
+                    e.preventDefault();
                     alert(
                       `Hey ${name} ,  thank you for reaching me. I will contact you soon!`
                     );

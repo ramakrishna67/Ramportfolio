@@ -35,7 +35,7 @@ const Navbar = () => {
           </a>
           <a
             className="hover:text-[#c75fa8] text-xl hover:text-xl text-cyan-400 hover:font-extrabold font-bold hover:cursor-pointer"
-            href="/contactme"
+            href="/Contactme"
           >
             ContactMe
           </a>

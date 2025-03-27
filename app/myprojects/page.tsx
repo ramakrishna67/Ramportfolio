@@ -56,31 +56,42 @@ export default function myprojects() {
             </div>
             <div className="card card-compact bg-base-100 md:w-96 w-80 shadow-xl">
               <figure>
-                <img
-                  src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                  alt="Website Image"
-                />
+                <img src="vibesync.png" alt="VibeSync Website Image" />
               </figure>
               <div className="card-body">
-                <h2 className="card-title">My Project</h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <h2 className="card-title">VibeSync</h2>
+                <p>
+                  This is a music app made with next.js and it also integrates
+                  with spotify.
+                </p>
                 <div className="card-actions justify-end">
-                  <button className="btn btn-primary">Go Live</button>
+                  <a
+                    href="https://github.com/ramakrishna67/VibeSync"
+                    target="_blank"
+                  >
+                    <button className="btn btn-primary">Go Live</button>
+                  </a>
                 </div>
               </div>
             </div>
             <div className="card card-compact bg-base-100 md:w-96 w-80 shadow-xl">
               <figure>
-                <img
-                  src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
-                  alt="Website image"
-                />
+                <img src="helpcoin.png" alt="HelpCoin Website image" />
               </figure>
               <div className="card-body">
-                <h2 className="card-title">My Project</h2>
-                <p>If a dog chews shoes whose shoes does he choose?</p>
+                <h2 className="card-title">HelpCoin</h2>
+                <p>
+                  This is a project which is made using Next.js. The main motto
+                  of this project is to help people and make money using help
+                  coin.{" "}
+                </p>
                 <div className="card-actions justify-end">
-                  <button className="btn btn-primary">Go Live</button>
+                  <a
+                    href="https://github.com/ramakrishna67/helpcoin-backend"
+                    target="_blank"
+                  >
+                    <button className="btn btn-primary">Go Live</button>
+                  </a>
                 </div>
               </div>
             </div>

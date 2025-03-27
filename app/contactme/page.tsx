@@ -2,10 +2,9 @@
 
 import Navbar from "@/components/navbar";
 import Image from "next/image";
-import { useState } from "react";
 
 export default function contactme() {
-  const [name, setName] = useState("");
+  var name = "";
   return (
     <>
       <Navbar />
@@ -35,7 +34,9 @@ export default function contactme() {
                   placeholder="Your Name"
                   name="name"
                   className=" pl-6 border-4 h-14 rounded-full m-2 w-[80%] "
-                  onChange={(e) => setName(e.target.value)}
+                  onChange={(e) => {
+                    name = e.target.value;
+                  }}
                 />
 
                 <input
